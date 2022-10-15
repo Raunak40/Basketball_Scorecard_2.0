@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Scorecard</title>
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section class="scoreboard">
+            <section class="container">
+                <h1>home</h1>
+                <div class="score-box" id="home-score">0</div>
+                <div class="scores">
+                    <button class="btn" id="home-btn-one">+1</button>
+                    <button class="btn" id="home-btn-two">+2</button>
+                    <button class="btn" id="home-btn-three">+3</button>
+                </div>
+            </section>
+            <section class="container">
+                <h1>guest</h1>
+                <div class="score-box" id="guest-score">0</div>
+                <div class="scores">
+                    <button class="btn" id="guest-btn-one">+1</button>
+                    <button class="btn" id="guest-btn-two">+2</button>
+                    <button class="btn" id="guest-btn-three">+3</button>
+                </div>
+            </section>
+        </section>
+        <section class="new-game">
+            <button id="new-game-btn" class="new-game-btn">
+                <i class="fa-sharp fa-solid fa-rotate-right"></i>
+            </button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
