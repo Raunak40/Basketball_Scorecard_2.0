@@ -39,12 +39,12 @@ document.getElementById("guest-btn-three").addEventListener("click", ()=>{
 })
 
 function teamSituation(){
-    if(homeScore.innerText < guestScore.innerText){
+    if(Number(homeScore.innerText) < Number(guestScore.innerText)){
         homeScore.style.border = "2px solid red"
         guestScore.style.border = "2px solid green"
     }
 
-    else if(homeScore.innerText > guestScore.innerText){
+    else if(Number(homeScore.innerText) > Number(guestScore.innerText)){
         homeScore.style.border = "2px solid green"
         guestScore.style.border = "2px solid red"
     }
